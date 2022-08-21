@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@100;300;400;500&family=Roboto:wght@100;300;700&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.hero {
+  height:650px;
+  background-image: url("wave.svg"),
+    linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-size: 100% 250px, cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.hero_container {
+  width: 90%;
+  height: 100%;
+  color: #fff;
+  padding: 25px 10px;
+  text-align: center;
+
+  margin: 0 auto;
+  overflow: hidden;
+}
+.hero_title {
+  font-size: 45px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+}
+.hero_paragrph {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.hero_picture {
+  width: 450px;
+  margin: 0 auto;
+  margin-top: 0px;
+}
+.hero_img {
+  width: 90%;
+  display: block;
+}
